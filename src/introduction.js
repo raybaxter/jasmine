@@ -65,7 +65,7 @@ describe("The 'toBe' matcher compares with ===", function() {
 /**
  ### Included Matchers
 
- Jasmine as a rich set of matchers included. Each is used here - all expectations and specs pass.
+ Jasmine has a rich set of matchers included. Each is used here - all expectations and specs pass.
 
  There is also the ability to write [custom matchers](https://github.com/pivotal/jasmine/wiki/Matchers) for when a project's domain calls for specific assertions that are not included below.
  */
@@ -122,7 +122,7 @@ describe("Included matchers:", function() {
       foo: 'foo'
     };
 
-    expect(a.foo).not.toBeUndefined();
+    expect(a.bar).toBeUndefined();
     expect(a.foo).not.toBeUndefined();
   });
 
